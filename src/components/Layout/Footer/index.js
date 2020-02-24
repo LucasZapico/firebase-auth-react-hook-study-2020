@@ -14,13 +14,15 @@ const Footer = () => {
         <div className="neu-pos padding-sm">
           <h4>About this Project</h4>
           <p>
-            I created this project is because I am a gear/tool
-            head...That means that I am continously looking and
-            weighing new tools, methods, integrations to sweeten my
-            own workflow. The result of this is that in conversion
-            people often ask me what one tool, extension, plugin,
-            package or app I am using for x,y or z.
+            The objective of this project is to showcase the tools and
+            resources that are part of my workflows. I used this need
+            to review the current state of react 2020 and mess around
+            with neumorphism in a web design. The stack used is SASS,
+            REACT(hooks), and Firebase.
           </p>
+          <a href="https://github.com/LucasZapico/firebase-auth-react-hook-study-2020">
+            Check out the code for the practice project here
+          </a>
         </div>
       </div>
       <div className="grid__column--4"></div>

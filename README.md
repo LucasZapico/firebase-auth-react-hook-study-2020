@@ -1,3 +1,12 @@
+# About this Project
+
+I created this project because I am a gear/tool
+head...That means that I am continuously looking and
+weighing new tools, integrations and methods to sweeten my
+own workflow. The result of this is that in conversion
+people often ask me what one tool, extension, plugin,
+package or app I am using for x,y or z. So I decided to start building this little gem
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
