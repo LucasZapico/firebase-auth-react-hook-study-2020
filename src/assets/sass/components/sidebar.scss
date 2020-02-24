@@ -1,0 +1,29 @@
+.sidebar {
+  min-height: 100vh;
+  margin-left: 1rem;
+  border-radius: 20px;
+  padding: 1rem;
+  @include neu-pos();
+  height: 100%;
+  .sidenav__item {
+  }
+  .active {
+    @include neu-pos();
+    border-radius: 15px;
+    padding: 0.3rem;
+    padding-left: 0.4rem;
+  }
+  li {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      margin-right: 0.3rem;
+      margin-top: 0.2rem;
+      svg {
+        fill: darken(#c3ccd1, 20%);
+      }
+    }
+  }
+}

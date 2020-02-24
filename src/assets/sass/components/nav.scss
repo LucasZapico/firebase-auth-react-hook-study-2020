@@ -1,0 +1,43 @@
+nav {
+  ul {
+    list-style: none;
+  }
+}
+
+.nav {
+  &-primary {
+    padding-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    @include neu-pos();
+    border-radius: 40px;
+    &__items {
+      list-style-type: none;
+      padding-top: 1rem;
+      width: 50%;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      & {
+        li {
+          margin: 0px;
+        }
+      }
+    }
+
+    &__item {
+      cursor: pointer;
+    }
+    &__link {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+
+      font-size: 1.2rem;
+    }
+  }
+}

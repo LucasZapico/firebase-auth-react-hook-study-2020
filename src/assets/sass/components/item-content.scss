@@ -1,0 +1,40 @@
+.item-content {
+  // title
+
+  // space
+  // link
+  // tags
+  &__tags {
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    padding: 0.6rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    margin-left: 0.4rem;
+    @include neu-neg-minus();
+  }
+
+  &__tag {
+    border-radius: 15px;
+    padding: 0.2rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    margin-left: 0.4rem;
+    margin-bottom: 0.6em;
+    @include neu-pos();
+  }
+  &__categories {
+  }
+
+  &__category {
+    border-radius: 15px;
+    padding: 0.2rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    margin-left: 0.4rem;
+    @include neu-pos();
+  }
+  // category
+  // in current workflow
+  // description
+}

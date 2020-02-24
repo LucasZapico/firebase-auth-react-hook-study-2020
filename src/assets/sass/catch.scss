@@ -1,0 +1,44 @@
+.add-item {
+  .form {
+    @include neu-neg();
+    width: 100%;
+    border-radius: 20px;
+    padding: 2rem;
+    input,
+    input[type='email'],
+    input[type='number'],
+    input[type='search'],
+    input[type='text'],
+    input[type='tel'],
+    input[type='url'],
+    input[type='password'],
+    textarea {
+      border: none;
+      width: 100%;
+      box-shadow: none;
+      border-radius: 5px;
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &__title {
+    }
+    &__description {
+      height: 10rem;
+    }
+  }
+}
+
+.item-content {
+  @include neu-pos();
+  width: 100%;
+  border-radius: 20px;
+  padding: 2rem;
+
+  &__title {
+  }
+  &__description {
+    height: 10rem;
+  }
+}

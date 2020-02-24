@@ -1,0 +1,65 @@
+$link-color: #00400c;
+/**
+   * Buttons
+   */
+
+button,
+.btn {
+  border-radius: 20px;
+  border: none;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  &:hover {
+  }
+  &:active {
+  }
+  display: inline-block;
+  @include neu-pos();
+}
+
+/**
+   * Links
+   */
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  // text-decoration-skip: var(--link-text-decoration-skip);
+  // text-decoration-skip-ink: auto;
+  transition: all 0.2s ease-in-out;
+
+  &:hover,
+  &:focus {
+  }
+  &:active {
+  }
+}
+
+.radio {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  padding-bottom: 0.4rem;
+  padding-top: 0.7rem;
+  border-radius: 100%;
+  @include neu-neg-minus();
+
+  &__pos {
+    @include neu-pos();
+    svg {
+      height: 0.8em;
+      width: 0.8em;
+    }
+  }
+  &__neg {
+    @include neu-neg-minus();
+    svg {
+      height: 0.8em;
+      width: 0.8em;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.footer {
+  margin: 0.5rem;
+  @include breakpoint-min(sm) {
+    margin: 1rem;
+  }
+  @include breakpoint-min(md) {
+  }
+}
